@@ -198,7 +198,7 @@ static const Key keys[] = {
 
 	{ MODKEY,			XK_z,		incrgaps,	{.i = +3 } },
 	{ MODKEY,			XK_x,		incrgaps,	{.i = -3 } },
-	{ MODKEY,			XK_c,		spawn,		{.v = (const char*[]){ "cerebrum", NULL } } },
+	{ MODKEY,			XK_c,		spawn,		{.v = (const char*[]){ "spawncerebrum", NULL } } },
 	{ MODKEY,			XK_b,		togglebar,	{0} },
 	{ MODKEY,			XK_n,		spawn,		{.v = (const char*[]){ TERMINAL, "-e", "nvim", "-c", "VimwikiIndex", NULL } } },
 	{ MODKEY|ShiftMask,		XK_n,		spawn,		SHCMD(TERMINAL " -e newsboat ; pkill -RTMIN+6 dwmblocks") },
